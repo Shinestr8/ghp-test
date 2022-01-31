@@ -27,7 +27,7 @@ export function TATrophies(props){
                       <img 
                         alt={"trophy" + pos.trophyType}
                         className="trophy-img" 
-                        src={"/images/trophies/"+ (pos.trophyType-1) + ".png"}
+                        src={process.env.PUBLIC_URL + "/images/trophies/"+ (pos.trophyType-1) + ".png"}
                         title={"T" + pos.trophyType}
                       />
                     )}

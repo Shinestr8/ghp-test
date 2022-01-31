@@ -22,20 +22,27 @@ export function Trackmania(props){
                <Menu name="TOTD" handleClick={selectMenu} selected={selected}/>
             </div>
             
+            <div style={{'padding': '1rem'}}>
+
+            
             {selected === 'COTD' && (
                 <div>
-                    <CupTrophies trophyGain={mainEvent} title="Main event"/>
+                    <CupTrophies trophyGain={mainEvent} title="Rounds"/>
+                    <TATrophies data={TAMain} title="Time attack"/>
                 </div>
             )}
             {selected === 'COTN' && (
                 <div>
-                    <CupTrophies trophyGain={rerun} title="Rerun"/>
+                    <CupTrophies trophyGain={rerun} title="Rounds"/>
+                    <TATrophies data={TArerun} title="Time attack"/>
                 </div>
             )}
             {selected === 'TOTD' && (
-                <div>{selected}</div>
+                <div>
+                    <TATrophies data={TOTDrank} title="TOTD rank"/>
+                </div>
             )}
-            
+            </div>
         </div>
         
     )

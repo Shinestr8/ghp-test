@@ -1,0 +1,14 @@
+.menu-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu{
+    width: 100%;
+    text-align: center;
+}
+
+.menu:hover{
+    background-color: lightgray;
+    color: white;
+}

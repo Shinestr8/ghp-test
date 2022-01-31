@@ -1,12 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import { Trackmania } from './Trackmania/Trackmania';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Corentin Lapin</h1>
-      </header>
+    <div className='page'>
+      <div className='header'>
+        Trackmania trophy earnings
+      </div>
+      <div className='wrapper'>
+        <div className='content'>
+          <Trackmania/>
+        </div>
+      </div>
+
     </div>
   );
 }

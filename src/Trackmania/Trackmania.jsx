@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 
 import { Menu } from "./Menu";
+import { CupTrophies } from "./CupTrophies";
+import { TATrophies } from "./TATrophies";
+import { mainEvent, TAMain, TArerun, TOTDrank, rerun } from "./trophyData";
 import './trackmania.css';
 
 export function Trackmania(props){
@@ -20,10 +23,14 @@ export function Trackmania(props){
             </div>
             
             {selected === 'COTD' && (
-                <div>{selected}</div>
+                <div>
+                    <CupTrophies trophyGain={mainEvent} title="Main event"/>
+                </div>
             )}
             {selected === 'COTN' && (
-                <div>{selected}</div>
+                <div>
+                    <CupTrophies trophyGain={rerun} title="Rerun"/>
+                </div>
             )}
             {selected === 'TOTD' && (
                 <div>{selected}</div>

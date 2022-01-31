@@ -27,7 +27,7 @@ export function CupTrophies(props){
                                         alt={"trophy" + pos.type1.trophyType}
                                         className="trophy-img" 
                                         title={"T" + pos.type1.trophyType}
-                                        src={"/images/trophies/"+ (pos.type1.trophyType-1) + ".png"}
+                                        src={process.env.PUBLIC_URL + "/images/trophies/"+ (pos.type1.trophyType-1) + ".png"}
                                     />
                                     )}
                                         
@@ -38,7 +38,7 @@ export function CupTrophies(props){
                                             alt={"trophy" + pos.type2.trophyType}
                                             className="trophy-img" 
                                             title={"T" + pos.type2.trophyType}
-                                            src={"/images/trophies/"+ (pos.type2.trophyType-1) + ".png"}
+                                            src={process.env.PUBLIC_URL + "/images/trophies/"+ (pos.type2.trophyType-1) + ".png"}
                                         />
                                     )}
                                 </td>
@@ -48,7 +48,7 @@ export function CupTrophies(props){
                                             alt={"trophy" + pos.type3.trophyType}
                                             className="trophy-img" 
                                             title={"T" + pos.type3.trophyType}
-                                            src={"/images/trophies/"+ (pos.type3.trophyType-1) + ".png"}
+                                            src={process.env.PUBLIC_URL + "/images/trophies/"+ (pos.type3.trophyType-1) + ".png"}
                                         />
                                     )}
                                 </td>
@@ -58,7 +58,7 @@ export function CupTrophies(props){
                                                 alt={"trophy" + pos.type4.trophyType}
                                                 className="trophy-img" 
                                                 title={"T" + pos.type4.trophyType}
-                                                src={"/images/trophies/"+ (pos.type4.trophyType-1) + ".png"}
+                                                src={process.env.PUBLIC_URL + "/images/trophies/"+ (pos.type4.trophyType-1) + ".png"}
                                             />
                                         )}
                                 </td>
@@ -68,7 +68,7 @@ export function CupTrophies(props){
                                                 alt={"trophy" + pos.type5.trophyType}
                                                 className="trophy-img" 
                                                 title={"T" + pos.type5.trophyType}
-                                                src={"/images/trophies/"+ (pos.type5.trophyType-1) + ".png"}
+                                                src={process.env.PUBLIC_URL + "/images/trophies/"+ (pos.type5.trophyType-1) + ".png"}
                                         />
                                     )}
                                 </td>

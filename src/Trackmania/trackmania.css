@@ -12,3 +12,25 @@
     background-color: lightgray;
     color: white;
 }
+
+.trophy-img{
+    width: 2rem;
+    vertical-align: middle;
+}
+
+.trophy-earnings-table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    /* border: 1px solid lightgray; */
+  }
+  
+  .trophy-earnings-table thead{
+    /* border-bottom: 1px solid lightgray; */
+    background-color: #212529;
+    color: white
+  }
+  
+  .trophy-earnings-table tbody tr:nth-child(even){
+    background-color: lightgray;
+  }

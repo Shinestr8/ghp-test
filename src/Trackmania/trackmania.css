@@ -4,6 +4,10 @@ body{
     overflow-y: overlay;
 }
 
+.table-title{
+  text-align: center;
+}
+
 .header{
   display: flex;
   justify-content: center;

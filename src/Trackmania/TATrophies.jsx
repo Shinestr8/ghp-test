@@ -2,7 +2,7 @@ export function TATrophies(props){
     const data = props.data
     return (
         <div>
-          <h2 style={{marginTop: '2em', textDecoration: 'underline'}}>{props.title}</h2>  
+          <h2 className="table-title" style={{marginTop: '2em', textDecoration: 'underline'}}>{props.title}</h2>  
           <table className='trophy-earnings-table'>
             <thead>
               <tr>

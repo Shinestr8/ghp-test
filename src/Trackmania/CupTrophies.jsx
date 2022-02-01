@@ -2,7 +2,7 @@ export function CupTrophies(props){
     const trophyGain = props.trophyGain;
     return(
         <div>
-            <h2 style={{marginTop: '2em', textDecoration: 'underline'}}>{props.title}</h2>
+            <h2 className="table-title" style={{marginTop: '2em', textDecoration: 'underline'}}>{props.title}</h2>
             <table className="trophy-earnings-table">
                 <thead>
                     <tr>

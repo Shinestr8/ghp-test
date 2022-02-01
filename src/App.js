@@ -6,7 +6,7 @@ function App() {
   return (
     <div className='page'>
       <div className='header'>
-        Trackmania trophy earnings
+        Trackmania Trophies
       </div>
       <div className='wrapper'>
         <div className='content'>

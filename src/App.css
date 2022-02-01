@@ -13,6 +13,8 @@
 
 .wrapper{
   background-color: #161D31;
+  background-attachment: fixed;
+  background-position: top;
   flex-grow: 1;
 }
 

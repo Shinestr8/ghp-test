@@ -6,7 +6,7 @@ import { TATrophies } from "./TATrophies";
 import { mainEvent, TAMain, TArerun, TOTDrank, rerun } from "./trophyData";
 import './trackmania.css';
 
-export function Trackmania(props){
+export function Trackmania(){
 
     const [selected, setSelected] = useState('COTD');
 
@@ -18,7 +18,7 @@ export function Trackmania(props){
         <div>
             <div className="menu-list">
                <Menu name="COTD" handleClick={selectMenu} selected={selected}/>
-               <Menu name="COTN" handleClick={selectMenu} selected={selected}/>
+               <Menu name="Rerun" handleClick={selectMenu} selected={selected}/>
                <Menu name="TOTD" handleClick={selectMenu} selected={selected}/>
             </div>
             
@@ -31,7 +31,7 @@ export function Trackmania(props){
                     <TATrophies data={TAMain} title="Time attack"/>
                 </div>
             )}
-            {selected === 'COTN' && (
+            {selected === 'Rerun' && (
                 <div>
                     <CupTrophies trophyGain={rerun} title="Rounds"/>
                     <TATrophies data={TArerun} title="Time attack"/>

@@ -17,11 +17,18 @@ body{
 .menu-list{
     display: flex;
     justify-content: space-around;
+    background-color: #161D31;
+    color:white;
 }
 
 .menu{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
     border-bottom: 1px solid #161D31;
 }
 
@@ -31,7 +38,9 @@ body{
 
 .menu:hover{
     background-color: lightgray;
-    color: white;
+    color: black;
+    transition-property: background-color, color;
+    transition-duration: 0.4s;
 }
 
 .trophy-img{

@@ -5,6 +5,7 @@ import { CupTrophies } from "./CupTrophies";
 import { TATrophies } from "./TATrophies";
 import { mainEvent, TAMain, TArerun, TOTDrank, rerun } from "./trophyData";
 import './trackmania.css';
+import './trackmania-small.css';
 
 export function Trackmania(){
 

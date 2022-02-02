@@ -5,7 +5,7 @@
     }
 
     .trophy-img{
-        width: 1.5rem;
+        max-width: 1.5rem;
         vertical-align: middle;
     }
 

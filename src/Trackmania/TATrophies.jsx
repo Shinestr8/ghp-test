@@ -1,5 +1,5 @@
 export function TATrophies(props){
-    const data = props.data
+    const data = props.data;
     return (
         <div>
           <h2 className="table-title" style={{marginTop: '2em', textDecoration: 'underline'}}>{props.title}</h2>  
@@ -22,7 +22,7 @@ export function TATrophies(props){
                     )} 
                   </td>
                   <td>
-                    {pos.trophyCount}
+                    <span className={pos.trophyType === '?' ? 'unknown' : ''}>{pos.trophyCount}</span>
                     {pos.trophyType !== '?' && (
                       <img 
                         alt={"trophy" + pos.trophyType}

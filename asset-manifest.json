@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ghp-test/static/css/main.d7eade84.css",
-    "main.js": "/ghp-test/static/js/main.454123ae.js",
-    "static/js/787.287f5415.chunk.js": "/ghp-test/static/js/787.287f5415.chunk.js",
-    "static/media/Lobster-Regular.ttf": "/ghp-test/static/media/Lobster-Regular.03c38496322925fec242.ttf",
-    "index.html": "/ghp-test/index.html",
-    "main.d7eade84.css.map": "/ghp-test/static/css/main.d7eade84.css.map",
-    "main.454123ae.js.map": "/ghp-test/static/js/main.454123ae.js.map",
-    "787.287f5415.chunk.js.map": "/ghp-test/static/js/787.287f5415.chunk.js.map"
+    "main.css": "/www.trackmania-trophies.tk/static/css/main.aea16870.css",
+    "main.js": "/www.trackmania-trophies.tk/static/js/main.21d8ba02.js",
+    "static/js/787.287f5415.chunk.js": "/www.trackmania-trophies.tk/static/js/787.287f5415.chunk.js",
+    "static/media/Lobster-Regular.ttf": "/www.trackmania-trophies.tk/static/media/Lobster-Regular.03c38496322925fec242.ttf",
+    "index.html": "/www.trackmania-trophies.tk/index.html",
+    "main.aea16870.css.map": "/www.trackmania-trophies.tk/static/css/main.aea16870.css.map",
+    "main.21d8ba02.js.map": "/www.trackmania-trophies.tk/static/js/main.21d8ba02.js.map",
+    "787.287f5415.chunk.js.map": "/www.trackmania-trophies.tk/static/js/787.287f5415.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7eade84.css",
-    "static/js/main.454123ae.js"
+    "static/css/main.aea16870.css",
+    "static/js/main.21d8ba02.js"
   ]
 }

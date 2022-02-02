@@ -7,11 +7,11 @@ export function CupTrophies(props){
                 <thead>
                     <tr>
                         <th></th>
-                        <th>Type 1 (top64)</th>
-                        <th>Type 2 (top 10%)</th>
-                        <th>Type 3 (top25%)</th>
-                        <th>Type 4 (top 50%)</th>
-                        <th>Type 5 (top 100%)</th>
+                        <th>Type1 (top 64)</th>
+                        <th>Type2 (top 10%)</th>
+                        <th>Type3 (top 25%)</th>
+                        <th>Type4 (top 50%)</th>
+                        <th>Type5 (top 100%)</th>
                     </tr>
                 </thead>
                 <tbody>

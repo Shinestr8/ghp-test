@@ -65,7 +65,8 @@ body{
   
   .trophy-earnings-table thead{
     background-color: #161D31;
-    height: 2.2rem;
+    min-height: 2.2rem;
+    line-break: normal;
     color: white
   }
   

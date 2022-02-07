@@ -41,7 +41,7 @@ body{
 }
 
 .menu:not(:last-child){
-  border-right: 1px solid #161D31;
+  border-right: 1px solid lightgray;
 }
 
 .menu:hover{

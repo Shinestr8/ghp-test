@@ -17,4 +17,9 @@
     .header{
         font-size: 2rem;
     }
+
+    .menu:not(:last-child){
+        border-right: none;
+        border-bottom: 1px solid lightgrey;
+    }
 }
